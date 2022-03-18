@@ -12,8 +12,8 @@ function Navigation() {
             <ul class="main-nav">
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/all-projects'>All</Link></li>
-                <li><Link to='/new'>New</Link></li>
-                <li><Link to='/fav'>Favourites</Link></li>
+                <li><Link to='/new-project'>New</Link></li>
+                <li><Link to='/favourites'>Favourites</Link></li>
             </ul>
         </header>
 

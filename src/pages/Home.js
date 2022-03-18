@@ -10,7 +10,7 @@ function Home() {
                     ZILLA helps you create, maintain and organize sticky notes for your different projects.
                 </p>
             </div>
-            <Button destination='/new' text='Create New Project' />
+            <Button destination='/new-project' text='Create New Project' />
         </div>
     );
 }
