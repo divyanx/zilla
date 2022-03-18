@@ -1,0 +1,13 @@
+.main-footer {
+    color: #457b9d;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+.main-footer p{
+    padding-left: 1em;
+}
+.main-footer:hover {
+	color: #1d3557;
+}
