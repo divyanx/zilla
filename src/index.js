@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 
 import { BrowserRouter } from 'react-router-dom';
-
+import { AllProjectsContextProvider } from './store/AllProjectcontext';
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <AllProjectsContextProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </AllProjectsContextProvider>,
   document.getElementById('root')
 );
 
