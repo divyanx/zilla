@@ -6,25 +6,30 @@ import AllProjects from "./pages/AllProjects";
 import Favourites from "./pages/Favourites";
 import NotFound from "./pages/NotFound";
 
-import { Routes, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 function App() {
 
   return (
     < div className="main">
       < Navigation />
       < div className="main-app" >
-        <Routes>
-          <Route exact path="/" element=
-            {< Home />} />
-          <Route exact path="/new-project" element=
-            {<NewProject />} />
-          <Route exact path="/all-projects" element=
-            {<AllProjects />} />
-          <Route exact path="/favourites" element=
-            {<Favourites />} />
-          <Route path="*" element=
-            {<NotFound />} />
-        </Routes>
+        <Switch>
+          <Route path="/" exact>
+            < Home />
+          </Route>
+          <Route path="/new-project" >
+            <NewProject />
+          </Route>
+          <Route exact path="/all-projects">
+            <AllProjects />
+          </Route>
+          <Route exact path="/favourites">
+            <Favourites />
+          </Route>
+          <Route path="*">
+            <NotFound />
+          </Route>
+        </Switch>
         <Footer />
       </div>
 
