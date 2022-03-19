@@ -5,7 +5,7 @@ import NewProject from "./pages/NewProject";
 import AllProjects from "./pages/AllProjects";
 import Favourites from "./pages/Favourites";
 import NotFound from "./pages/NotFound";
-
+import EditProject from "./pages/EditProject";
 import { Switch, Route } from 'react-router-dom';
 function App() {
 
@@ -25,6 +25,9 @@ function App() {
           </Route>
           <Route exact path="/favourites">
             <Favourites />
+          </Route>
+          <Route exact path="/edit-project/:Projectkey">
+            <EditProject />
           </Route>
           <Route path="*">
             <NotFound />

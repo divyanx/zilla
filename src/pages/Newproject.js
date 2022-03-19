@@ -17,7 +17,7 @@ function NewProject() {
     // }
     function addProjectHandler(Data) {
         allProjectCtx.add(Data);
-        history.replace('/');
+        history.replace('/all-projects');
     }
 
     return (

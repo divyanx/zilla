@@ -9,8 +9,7 @@ function Footer() {
             <hr />
             <div className="row">
                 <p className="col-sm">
-                    &copy;{new Date().getFullYear()} ZILLA | All rights reserved |
-                    Terms Of Service | Privacy
+                    &copy;{new Date().getFullYear()} ZILLA | Himanshu
                 </p>
             </div>
         </div>

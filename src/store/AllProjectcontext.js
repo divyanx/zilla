@@ -7,26 +7,26 @@ const projects = [
         date: "2020-01-01",
     },
     {
-        key: 2,
+        key: "2",
         title: "Project 2",
         description: "This is project 2",
         date: "2020-01-02",
     },
     // define a list of projects here
     {
-        key: 3,
+        key: "3",
         title: "Project 3",
         description: "This is project 3",
         date: "2020-01-03",
     },
     {
-        key: 4,
+        key: "4",
         title: "Project 4",
         description: "This is project 4",
         date: "2020-01-04",
     },
     {
-        key: 5,
+        key: "5",
         title: "Project 5",
         description: "This is project 5",
         date: "2020-01-05",
