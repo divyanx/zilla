@@ -18,8 +18,8 @@
   
   .actions button {
     appearance: button;
-    background-color: #457b9d;
-    border: 1px solid #457b9d;
+    background-color: #4361ee;
+    border: 1px solid #4361ee;
     border-radius: 4px;
     box-sizing: border-box;
     color: #FFFFFF;
@@ -41,6 +41,6 @@
   
   .actions button:hover,
   .actions button:active {
-    background-color: #1d3557;
-    border-color: #1d3557;
+    background-color: #4cc9f0;
+    border-color: #4cc9f0;
   }

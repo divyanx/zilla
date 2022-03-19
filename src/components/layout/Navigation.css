@@ -18,7 +18,7 @@ ul {
 h2,
 h3,
 a {
-	color: #34495e;
+	color: rgb(144, 196, 255);
 }
 
 a {
@@ -45,12 +45,12 @@ a {
 }
 
 .main-nav a {
-	color: #457b9d;
+	color:white;
 	font-size: .99em;
 }
 
 .main-nav a:hover {
-	color: #1d3557;
+	color: #3a0ca3;
 }
 
 
@@ -61,13 +61,13 @@ a {
 	padding-left: .5em;
 	padding-right: .5em;
 	border: 1px solid #a2a2a2;
-	background-color: #f1faee;
-	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	background: linear-gradient(90deg, hsla(229, 83%, 60%, 1) 0%, hsla(180, 57%, 53%, 1) 100%);
+	/* -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75); */
+	/* -webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 5px; */
 }
 
 

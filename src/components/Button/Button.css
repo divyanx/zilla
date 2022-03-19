@@ -1,14 +1,14 @@
 /* CSS */
 .button-26 {
     appearance: button;
-    background-color: #457b9d;
-    border: 1px solid #457b9d;
+    border : 2px solid #4361ee;
+    background-color: transparent;
     border-radius: 4px;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color:#4361ee;
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.15;
     overflow: visible;
     padding: 12px 16px;
@@ -31,11 +31,13 @@
   }
   
   .button-26:hover {
-    background-color: #1d3557;
-    border-color: #1d3557;
+    border : 3px solid #4cc9f0;
+    background-color: transparent;
+    color:#4cc9f0;
   }
   
   .button-26:active {
-    background-color: #1d3557;
-    border-color: #1d3557;
+    border : 3px solid #4cc9f0;
+    background-color: transparent;
+    color:#4cc9f0;
   }
