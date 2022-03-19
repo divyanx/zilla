@@ -1,10 +1,11 @@
 import { createContext, useState } from 'react';
 const projects = [
     {
-        key: 1,
+        key: "1",
         title: "Project 1",
         description: "This is project 1",
         date: "2020-01-01",
+
     },
     {
         key: "2",
