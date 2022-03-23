@@ -5,6 +5,42 @@ const projects = [
         title: "Project 1",
         description: "This is project 1",
         date: "2020-01-01",
+        notes: [
+            {
+                key: "1",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "facebook",
+                color: 1,
+            },
+            {
+                key: "2",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "instagram",
+                color: 2,
+            },
+            {
+                key: "3",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+            {
+                key: "4",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+        ]
 
     },
     {
@@ -12,6 +48,42 @@ const projects = [
         title: "Project 2",
         description: "This is project 2",
         date: "2020-01-02",
+        notes: [
+            {
+                key: "1",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "facebook",
+                color: 1,
+            },
+            {
+                key: "2",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "instagram",
+                color: 2,
+            },
+            {
+                key: "3",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+            {
+                key: "4",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+        ]
     },
     // define a list of projects here
     {
@@ -19,18 +91,126 @@ const projects = [
         title: "Project 3",
         description: "This is project 3",
         date: "2020-01-03",
+        notes: [
+            {
+                key: "1",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "facebook",
+                color: 1,
+            },
+            {
+                key: "2",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "instagram",
+                color: 2,
+            },
+            {
+                key: "3",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+            {
+                key: "4",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+        ]
     },
     {
         key: "4",
         title: "Project 4",
         description: "This is project 4",
         date: "2020-01-04",
+        notes: [
+            {
+                key: "1",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "facebook",
+                color: 1,
+            },
+            {
+                key: "2",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "instagram",
+                color: 2,
+            },
+            {
+                key: "3",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+            {
+                key: "4",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+        ]
     },
     {
         key: "5",
         title: "Project 5",
         description: "This is project 5",
         date: "2020-01-05",
+        notes: [
+            {
+                key: "1",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "facebook",
+                color: 1,
+            },
+            {
+                key: "2",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "instagram",
+                color: 2,
+            },
+            {
+                key: "3",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+            {
+                key: "4",
+                text: "moron comes tonight",
+                author: "Himanshu",
+                date: "2020-01-01",
+                group: "whatsapp",
+                color: 3,
+
+            },
+        ]
     }
 ];
 const AllProjectsContext = createContext({

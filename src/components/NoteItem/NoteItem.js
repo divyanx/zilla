@@ -1,4 +1,4 @@
-function NoteItem() {
+function NoteItem(props) {
 
 }
 

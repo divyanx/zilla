@@ -5,19 +5,22 @@ import AllProjectsContext from '../../store/AllProjectcontext';
 function NoteList(props) {
     const allProjectCtx = useContext(AllProjectsContext);
     //find the project having key = props.k
-    const project = allProjectCtx.AllProjects.filter(p => p.key === props.ke)[0];
+    const project = allProjectCtx.AllProjects.filter(p => p.key === props.k)[0];
     const notes = project.notes;
     return (
-
-        <div className="notes-list">
-            <ul>
-                {notes.map(note => (
-                    <li>
-                        <NoteItem note={note} />
-                    </li>
-                ))}
-            </ul >
+        <div>
+            <h1>Showing All Notes of Project{project.title}</h1>
+            <div className="notes-list">
+                <ul>
+                    {notes.map(note => (
+                        <li>
+                            <NoteItem note={note} />
+                        </li>
+                    ))}
+                </ul >
+            </div>
         </div>
+
     );
 }
 
