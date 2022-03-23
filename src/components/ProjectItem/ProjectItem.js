@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+
 import "./ProjectItem.css"
 import { useHistory } from 'react-router-dom';
 import { useContext } from 'react';
@@ -24,7 +24,11 @@ function ProjectItem(props) {
                 <h3 className="Item__date">{props.project.date}</h3>
             </div>
             <div className="Item_footer">
-                <Button text="View Notes" destination="/" />
+                <Link to={`/all-notes/${props.project.key}`}>
+                    <button className='button-26'>
+                        View Notes
+                    </button>
+                </Link>
                 <Link to={`/edit-project/${props.project.key}`}>
                     <button className='button-26'>
                         Edit
