@@ -7,18 +7,17 @@ import Favourites from "./pages/Favourites";
 import NotFound from "./pages/NotFound";
 import EditProject from "./pages/EditProject";
 import AllNotes from "./pages/AllNotes";
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route } from "react-router-dom";
 function App() {
-
   return (
-    < div className="main">
-      < Navigation />
-      < div className="main-app" >
+    <div className="main">
+      <Navigation />
+      <div className="main-app">
         <Switch>
           <Route path="/" exact>
-            < Home />
+            <Home />
           </Route>
-          <Route path="/new-project" >
+          <Route path="/new-project">
             <NewProject />
           </Route>
           <Route exact path="/all-projects">
@@ -39,9 +38,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-
-    </div >
-
+    </div>
   );
 }
 
