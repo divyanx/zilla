@@ -1,6 +1,7 @@
 import NoteItem from "../NoteItem/NoteItem"
 import { useContext } from 'react';
 import AllProjectsContext from '../../store/AllProjectcontext';
+import "./NoteList.css"
 
 function NoteList(props) {
     const allProjectCtx = useContext(AllProjectsContext);
@@ -9,7 +10,7 @@ function NoteList(props) {
     const notes = project.notes;
     return (
         <div>
-            <h1>Showing All Notes of Project{project.title}</h1>
+            <h1>Showing All Notes of "{project.title}"</h1>
             <div className="notes-list">
                 <ul>
                     {notes.map(note => (

@@ -20,6 +20,7 @@ function NewProjectForm(props) {
             description: enteredDescription,
             date: new Date().toISOString().slice(0, 10),
             key: uuid(),
+            notes: [],
         };
 
         props.onAddProject(Data);
